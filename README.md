@@ -1,4 +1,4 @@
-# Dependency Forest for Relation Extraction
+# Dependency Forest for Medical Relation Extraction
 Code corresponding to our paper "Leveraging Dependency Forest for Neural Medical Relation Extraction" at EMNLP 2019
 
 This repo is under construction. 
