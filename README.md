@@ -3,7 +3,7 @@ Code corresponding to our paper "Leveraging Dependency Forest for Neural Medical
 
 ## Introduction
 
-Folder "biaffine_forest" a deep biaffine parser that can dump dependency forests as introduced in our paper. We adapt the original [dozat-parser](https://github.com/tdozat/Parser-v1) to get this system.
+Folder "biaffine_forest" is a [deep biaffine parser](https://arxiv.org/abs/1611.01734) that supports producing dependency forests as introduced in our paper. It is obtained by adapting the original [dozat-parser](https://github.com/tdozat/Parser-v1).
 To generate forests, use "--nbest" or "--cubesparse" *instead of* the traditional "--test" option when decoding.
 "--nbest" and "--cubesparse" correspond to our "KbestEisner" and "Edgewise" method, respectively.
 Parser training remains the same as the original system.
