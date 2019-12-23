@@ -19,11 +19,18 @@ This model is based on Python 2 and TF 1.8.0.
 If our work helps your research/system, please cite our work with the following bibtex file. 
 
 ```
-@inproceedings{song2019leveraging,
-  title={Leveraging Dependency Forest for Neural Medical Relation Extraction},
-  author={Song, Linfeng and Zhang, Yue and Gildea, Daniel and Yu, Mo and Wang, Zhiguo and others},
-  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
-  pages={208--218},
-  year={2019}
+@inproceedings{song-etal-2019-leveraging,
+    title = "Leveraging Dependency Forest for Neural Medical Relation Extraction",
+    author = "Song, Linfeng  and
+      Zhang, Yue  and
+      Gildea, Daniel  and
+      Yu, Mo  and
+      Wang, Zhiguo  and
+      Su, Jinsong",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    year = "2019",
+    doi = "10.18653/v1/D19-1020",
+    pages = "208--218"
 }
+
 ```
