@@ -14,6 +14,12 @@ There are several scripts within the "re_forest_grn/data" folder to help generat
 Training and decoding shells are also provided.
 This model is based on Python 2 and TF 1.8.0.
 
+## Data
+
+Since the orignal website for data obtaining is not available, you may download the data through [CPR](https://www.cs.rochester.edu/u/lsong10/downloads/cpr.zip) and [PGR](https://www.cs.rochester.edu/u/lsong10/downloads/pgr.zip). I also attach my script for preprocessing. It uses several handcrafted rules to pre-tokenize some special entities, which cannot be tokenized by a standard tokenizer.
+But, we just realized recently that this could be done in a smarter way that simply pre-tokenizes with the already provided character-based positions.
+You may improve this tokenizer for better performances.
+
 ## Cite 
 
 If our work helps your research/system, please cite our work with the following bibtex file. 
