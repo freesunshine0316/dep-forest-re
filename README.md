@@ -16,7 +16,7 @@ This model is based on Python 2 and TF 1.8.0.
 
 ## Data
 
-Since the orignal website for data obtaining is not available, you may download the data through [CPR](https://www.cs.rochester.edu/u/lsong10/downloads/cpr.zip) and [PGR](https://www.cs.rochester.edu/u/lsong10/downloads/pgr.zip). I also attach my script for preprocessing. It uses several handcrafted rules to pre-tokenize some special entities, which cannot be tokenized by a standard tokenizer.
+Since the orignal website for data obtaining is not available, you may download the data through [CPR](https://drive.google.com/file/d/18J69QyzqdSsJMB3ema7vAcHyHSOTk1kj/view?usp=sharing) and [PGR](https://github.com/lasigeBioTM/PGR). I also attach my script for preprocessing. It uses several handcrafted rules to pre-tokenize some special entities, which cannot be tokenized by a standard tokenizer.
 But, we just realized recently that this could be done in a smarter way that simply pre-tokenizes with the already provided character-based positions.
 You may improve this tokenizer for better performances.
 
